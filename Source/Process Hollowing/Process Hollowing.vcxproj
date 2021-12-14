@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f6f8c8bb-aa07-4357-9f95-a138f5370cf8}</ProjectGuid>
+    <ProjectGuid>{fd861fd7-ad32-49c5-a426-c171cc0615ec}</ProjectGuid>
     <RootNamespace>ProcessHollowing</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
