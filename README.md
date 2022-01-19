@@ -55,4 +55,3 @@ runpe.exe <source image> <target process>
 ```
 
 ### Demonstration :
-https://github.com/adamhlt/Process-Hollowing/blob/main/Ressources/Demonstration.mp4
