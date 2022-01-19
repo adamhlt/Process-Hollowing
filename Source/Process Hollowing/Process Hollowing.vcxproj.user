@@ -5,7 +5,11 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>"C:\Users\Adam\source\repos\Process Hollowing\Debug\test.exe" "C:\Users\Adam\source\repos\Process Hollowing\Debug\target.exe"</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"C:\Users\Adam\Desktop\Github\test\putty64.exe" "C:\Program Files\Mozilla Firefox\firefox.exe"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>"C:\Users\Adam\Desktop\Github\test\putty64.exe" "C:\Program Files\Mozilla Firefox\firefox.exe"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
