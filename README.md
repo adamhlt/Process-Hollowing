@@ -43,3 +43,16 @@ add_executable(runpe Process_Hollowing.cpp)
 ```
 
 Tested on CLion with MSVC compiler, you can get Visual Studio Build Tools [**here**](https://visualstudio.microsoft.com/fr/downloads/?q=build+tools).
+
+## 🧪 Usage :
+
+### How to use the program :
+
+Use it in the command line :
+
+```shell
+runpe.exe <source image> <target process>
+```
+
+### Demonstration :
+
