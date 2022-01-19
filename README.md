@@ -1,4 +1,4 @@
-![Banner](https://github.com/adamhlt/PE-Explorer/blob/main/Ressource/pe_explorer.png)
+![Banner](https://github.com/adamhlt/Process-Hollowing/blob/main/Ressources/banner.png)
 
 # Process Hollowing
 
