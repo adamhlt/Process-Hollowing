@@ -1,4 +1,5 @@
-![Banner](https://github.com/adamhlt/Process-Hollowing/blob/main/Ressources/banner.png)
+![Banner](https://user-images.githubusercontent.com/48086737/170040578-382b2a4f-26ca-42c4-b869-c5c68e6abf3d.png)
+
 
 # Process Hollowing
 
