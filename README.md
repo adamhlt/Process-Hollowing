@@ -22,8 +22,9 @@ If you don't know how PE format are structured you can look at this [project](ht
 
 ## :rocket: Getting Started :
 
-This is a **x64 executable**, you can't compile this project in x86, this loader is made to inject into x86 and x64 processes.
-You can easily make a x86 process hollowing program based on this repository.
+> **Warning** <br>
+> This is a **x64 executable**, you can't compile this project in x86, this loader is made to inject into x86 and x64 processes.
+> You can easily make a x86 process hollowing program based on this repository.
 
 ### Visual Studio :
 
