@@ -1,4 +1,5 @@
-![Banner](https://github.com/adamhlt/Process-Hollowing/blob/main/Ressources/banner.png)
+![Banner](https://user-images.githubusercontent.com/48086737/170040578-382b2a4f-26ca-42c4-b869-c5c68e6abf3d.png)
+
 
 # Process Hollowing
 
@@ -21,8 +22,9 @@ If you don't know how PE format are structured you can look at this [project](ht
 
 ## :rocket: Getting Started :
 
-This is a **x64 executable**, you can't compile this project in x86, this loader is made to inject into x86 and x64 processes.
-You can easily make a x86 process hollowing program based on this repository.
+> **Warning** <br>
+> This is a **x64 executable**, you can't compile this project in x86, this loader is made to inject into x86 and x64 processes.
+> You can easily make a x86 process hollowing program based on this repository.
 
 ### Visual Studio :
 
@@ -55,4 +57,4 @@ runpe.exe <source image> <target process>
 ```
 
 ### Demonstration :
-![demo](https://github.com/adamhlt/Process-Hollowing/blob/main/Ressources/demo.gif)
+https://user-images.githubusercontent.com/48086737/158390795-e7371e21-b475-481e-ba9a-f1b646ee5cfc.mp4
