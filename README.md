@@ -1,7 +1,15 @@
-![Banner](https://user-images.githubusercontent.com/48086737/170040578-382b2a4f-26ca-42c4-b869-c5c68e6abf3d.png)
-
-
-# Process Hollowing
+```
+           ____                                    __  __      ____              _             
+          / __ \_________  ________  __________   / / / /___  / / /___ _      __(_)___  ____ _
+         / /_/ / ___/ __ \/ ___/ _ \/ ___/ ___/  / /_/ / __ \/ / / __ \ | /| / / / __ \/ __ `/ 
+        / ____/ /  / /_/ / /__/  __(__  |__  )  / __  / /_/ / / / /_/ / |/ |/ / / / / / /_/ /
+       /_/   /_/   \____/\___/\___/____/____/  /_/ /_/\____/_/_/\____/|__/|__/_/_/ /_/\__, /
+                                                                                     /____/
+                                                                                     
+                                                                                    
+                                 Process Hollowing in C++ (x86 / x64)         
+                                    Process PE Image Replacement
+```
 
  [![C++](https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=for-the-badge&logo=appveyor)](https://en.wikipedia.org/wiki/C%2B%2B) [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg?style=for-the-badge&logo=appveyor)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![x64](https://img.shields.io/badge/arch-x64-green.svg?style=for-the-badge&logo=appveyor)](https://en.wikipedia.org/wiki/X64)
 
