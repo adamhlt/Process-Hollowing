@@ -13,7 +13,7 @@
 
 ---
 
-Process Hollowing replaces the PE image of a legitimately started process with another one, without ever letting the original entry point run. The loader is an x64 executable that can inject into both x86 and x64 target processes.
+Process Hollowing replaces the PE image of a legitimately started process with another one, without ever letting the original entry point run. The loader builds and runs on both x86 and x64.
 
 If you don't know how the PE format is structured, take a look at this [project](https://github.com/adamhlt/PE-Explorer).
 
@@ -44,22 +44,6 @@ runpe.exe [--verbose] <source image> <target process>
 
 - `--verbose`, `-v`: print detailed progress.
 - `--help`, `-h`: show the help.
-
-### Project layout
-
-```
-Source/
-├── include/runpe/   # public interfaces
-└── src/             # implementation
-```
-
-## Build
-
-> [!WARNING]
-> This is an **x64 executable**: you cannot compile the loader itself in x86. It is designed to inject into both x86 and x64 processes.
-
-1. Open `Source/Process Hollowing.sln`.
-2. Build the project in Release (x64).
 
 ## License
 
