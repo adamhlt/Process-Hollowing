@@ -58,7 +58,7 @@
       <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;NOMINMAX;UNICODE;_UNICODE;_WIN32_WINNT=0x0A00;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -75,7 +75,7 @@
       <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;NOMINMAX;UNICODE;_UNICODE;_WIN32_WINNT=0x0A00;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -86,22 +86,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\error.cpp" />
-    <ClCompile Include="..\src\injector.cpp" />
-    <ClCompile Include="..\src\log.cpp" />
-    <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\pe_image.cpp" />
-    <ClCompile Include="..\src\process.cpp" />
-    <ClCompile Include="..\src\thread_context.cpp" />
+    <ClCompile Include="..\..\src\error.cpp" />
+    <ClCompile Include="..\..\src\injector.cpp" />
+    <ClCompile Include="..\..\src\log.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\pe_image.cpp" />
+    <ClCompile Include="..\..\src\process.cpp" />
+    <ClCompile Include="..\..\src\thread_context.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\runpe\arch.h" />
-    <ClInclude Include="..\include\runpe\error.h" />
-    <ClInclude Include="..\include\runpe\injector.h" />
-    <ClInclude Include="..\include\runpe\log.h" />
-    <ClInclude Include="..\include\runpe\pe_image.h" />
-    <ClInclude Include="..\include\runpe\process.h" />
-    <ClInclude Include="..\include\runpe\thread_context.h" />
+    <ClInclude Include="..\..\include\runpe\arch.h" />
+    <ClInclude Include="..\..\include\runpe\error.h" />
+    <ClInclude Include="..\..\include\runpe\injector.h" />
+    <ClInclude Include="..\..\include\runpe\log.h" />
+    <ClInclude Include="..\..\include\runpe\pe_image.h" />
+    <ClInclude Include="..\..\include\runpe\process.h" />
+    <ClInclude Include="..\..\include\runpe\thread_context.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

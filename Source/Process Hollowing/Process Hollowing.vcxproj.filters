@@ -11,48 +11,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\error.cpp">
+    <ClCompile Include="..\..\src\error.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\injector.cpp">
+    <ClCompile Include="..\..\src\injector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\log.cpp">
+    <ClCompile Include="..\..\src\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\main.cpp">
+    <ClCompile Include="..\..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\pe_image.cpp">
+    <ClCompile Include="..\..\src\pe_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\process.cpp">
+    <ClCompile Include="..\..\src\process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\thread_context.cpp">
+    <ClCompile Include="..\..\src\thread_context.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\runpe\arch.h">
+    <ClInclude Include="..\..\include\runpe\arch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\runpe\error.h">
+    <ClInclude Include="..\..\include\runpe\error.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\runpe\injector.h">
+    <ClInclude Include="..\..\include\runpe\injector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\runpe\log.h">
+    <ClInclude Include="..\..\include\runpe\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\runpe\pe_image.h">
+    <ClInclude Include="..\..\include\runpe\pe_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\runpe\process.h">
+    <ClInclude Include="..\..\include\runpe\process.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\runpe\thread_context.h">
+    <ClInclude Include="..\..\include\runpe\thread_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

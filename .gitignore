@@ -6,15 +6,8 @@
 *.VC.opendb
 
 # Build outputs
-build/
 out/
 x64/
 x86/
 Debug/
 Release/
-CMakeUserPresets.json
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
